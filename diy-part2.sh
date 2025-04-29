@@ -54,15 +54,15 @@ git clone --depth=1 https://github.com/garypang13/luci-app-dnsfilter
 
 # Add jd 
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-jd-dailybonus
-git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
+#git clone https://github.com/jerrykuku/node-request.git package/lean/node-request  #京东签到依赖
+#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus  #luci-app-jd-dailybonus[京东签到]
 
 # Add luci-app-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall
 
 # Add luci-app-vssr <M>
-#git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
-#git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
+git clone --depth=1 https://github.com/jerrykuku/lua-maxminddb.git
+git clone --depth=1 https://github.com/jerrykuku/luci-app-vssr
 
 # Add mentohust & luci-app-mentohust
 #git clone --depth=1 https://github.com/BoringCat/luci-app-mentohust
@@ -76,7 +76,7 @@ svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-iptvhelper
 #git clone --depth=1 https://github.com/tty228/luci-app-serverchan
 
 # Add OpenClash
-#git clone --depth=1 -b master https://github.com/vernesong/OpenClash
+git clone --depth=1 -b master https://github.com/vernesong/OpenClash
 
 # Add luci-app-onliner (need luci-app-nlbwmon)
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner
